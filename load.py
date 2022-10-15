@@ -20,7 +20,6 @@ conn = psycopg2.connect(
 	user=db_user,
 	password=db_pass)
 
-url = 'http://winterolympicsmedals.com/medals.csv'
 data = pd.read_csv(url)
 
 columns = list(data.columns)
