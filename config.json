@@ -1,0 +1,7 @@
+{
+	"db_host" : "localhost",
+	"db_name" : "test",
+	"db_user" : "postgres",
+	"db_pass" : "password",
+	"table_name" : "test"
+}
